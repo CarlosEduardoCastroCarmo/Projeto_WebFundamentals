@@ -1,0 +1,159 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0%;
+}
+
+.hero
+{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size:cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content
+{
+    text-align: center;
+    color: white; 
+    margin-top: 150px;
+}
+
+.hero-content h1
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p
+{
+    background: rgba(0,0,0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white ;
+}
+
+.hero-content p:hover
+{
+    background: rgba(0,0,0, 0.8);
+    cursor: pointer;
+}
+.hero nav li
+{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 2px;
+    
+}
+
+.hero nav a
+{
+    background: rgba(0,0,0, 0.2);
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hero nav ul
+{
+    text-align: right;
+    margin: 15px 10px 0 0;
+}
+
+.hero nav a:hover
+{
+    background: rgba(0,0,0, 0.5);
+}
+
+main
+{
+    width: 85%;
+    margin: auto;
+}
+
+.content-section
+{
+    background-color: white;
+    padding: 10px;
+    margin-top:15px;
+    overflow: auto;
+}
+
+.card
+{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2
+{
+    margin-right: 2%;
+}
+
+.card img
+{
+    width: 100%;
+    display: block;
+}
+
+.card p
+{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgba(0,0,0, 0.5);
+    margin: 0%;
+    color: white;
+}
+
+.card p:hover
+{
+    background: rgba(0,0,0, 0.8);
+    cursor: pointer;
+}
+
+.article-title
+{
+    background: rgba(0,0,0, 0.5);
+    border-bottom: solid 2px #ccc;
+    height: 22px;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.article-title h2
+{
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.rodape
+{
+    text-align: center;
+    margin-top: 15px;
+    background-color: #6b6c68;
+    height: 55px;
+    padding-top: 5px;
+    text-shadow: 3px 3px 2px black;
+    font-size: 15px;
+    color: white
+}
+
+.article p
+{
+    text-indent: 2em;
+    text-align: justify;
+}
